@@ -22,6 +22,6 @@ ext {
     materialVersion = '1.6.1'
     materialVersionGoogle = '1.8.0-alpha02'
     liveDataVersion='2.2.0'
-    databindingRuntimeVersion = '7.2.2'
+    databindingRuntimeVersion = '7.3.0'
     glideVersion = '4.13.0'
 }

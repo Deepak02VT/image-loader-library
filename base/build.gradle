@@ -38,12 +38,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    publishing{
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
-    }
 }
 
 dependencies {
@@ -67,7 +61,7 @@ afterEvaluate {
             release(MavenPublication){
                 from components.release
                 groupId = 'com.github.Deepak02VT'
-                artifactId = 'Image-Loader-Library'
+                artifactId = 'image-loader-library'
                 version = '0.1'
             }
         }
