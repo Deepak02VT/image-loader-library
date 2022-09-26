@@ -10,19 +10,9 @@ android {
     namespace = "com.vtnra.library"
 
     defaultConfig {
-        versionCode 1
-        versionName "1.0"
         minSdk rootProject.minSdkVersion
         targetSdk rootProject.targetSdkVersion
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        aarMetadata{
-            minCompileSdk = 32
-        }
-        testFixtures {
-            enable = true
-        }
-
     }
 
     buildTypes {
