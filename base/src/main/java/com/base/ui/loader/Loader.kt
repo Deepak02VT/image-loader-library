@@ -8,7 +8,8 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
-import com.base.R
+import com.base.library.R
+
 
 class Loader(val context: Context, val lifecycle: Lifecycle) : DefaultLifecycleObserver {
 

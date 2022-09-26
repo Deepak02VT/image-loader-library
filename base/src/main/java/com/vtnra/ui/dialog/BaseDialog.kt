@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.DialogFragment
-import com.base.R
+import com.base.library.R
 
 
 const val dialogTag = "dialog-ui"

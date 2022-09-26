@@ -7,7 +7,7 @@ plugins {
 
 android {
     compileSdk rootProject.compileSdkVersion
-    namespace = "com.base"
+    namespace = "com.base.library"
 
     defaultConfig {
         minSdk rootProject.minSdkVersion
